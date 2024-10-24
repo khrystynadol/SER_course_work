@@ -12,10 +12,12 @@ Thus, the purpose of the next step was to study the effect of data size on the a
 - to train the model on data that make up 25%, 50%, 75%, 100% of the existing data set;
 - to analyze how the amount of data affects the quality of the model;
 - to determine the minimum number of examples required to collect your own data set.
+
 As a result:
 - The HuBERT model was trained on the RAVDESS dataset containing English language recordings. The results of the training were quite good, which indicates that this model is well suited for solving this particular task.
 - Having trained the models on different amounts of data, it was concluded that the best result was shown by the model trained on the full data set. However, given that the results of the model trained on 75% of the dataset are only slightly worse, we can assume that this amount of data also showed a good result.
 - Taking into account the conclusions drawn for the previous task, we can conclude that the amount of data corresponding to 75-100% of the RAVDESS dataset is suitable for model training. However, given the small difference in results and the difficulty of collecting your own data set, the minimum amount of data needed to accurately classify an emotion is a set equivalent in size to about 75% of the RAVDESS data set.
+
 The next steps:
 - collecting an own dataset with Ukrainian-language content; training and improving the model on the collected data.
 - learn how to classify a bunch of emotions in order to be able to analyze people's speeches more efficiently in the future.
